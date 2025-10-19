@@ -1,0 +1,113 @@
+body {
+  padding-top: 70px; /* adjust based on navbar height */
+}
+
+.word-counter-bg {
+  background: linear-gradient(180deg, #f8fbff 0%, #eaf3ff 100%);
+}
+
+.stat-box {
+  min-width: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.stat-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+textarea:focus {
+  border-color: #007bff !important;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.2) !important;
+}
+
+.reference-generator {
+  background: linear-gradient(180deg, #f8fbff 0%, #eaf3ff 100%);
+  min-height: 100vh;
+}
+
+.reference-generator .ref-card {
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.reference-generator .ref-input input,
+.reference-generator .ref-input select {
+  border-color: #dee2e6;
+  box-shadow: none;
+  transition: all 0.2s ease;
+}
+
+.reference-generator .ref-input input:focus,
+.reference-generator .ref-input select:focus {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.2) !important;
+}
+
+.reference-generator .ref-btn {
+  background-color: #3b82f6;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.reference-generator .ref-btn:hover {
+  background-color: #2563eb;
+}
+
+.reference-generator .ref-output {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.reference-generator .ref-output p {
+  color: #334155;
+  word-break: break-word;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.paraphraser-screen {
+  background: linear-gradient(to bottom right, #f8fbff, #e9f2ff);
+}
+
+.paraphraser-card {
+  background: #ffffffcc;
+  backdrop-filter: blur(10px);
+}
+
+.output-box {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.output-box:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.grammar-spelling-err {
+  color: #d9534f;
+  text-decoration: underline dotted #d9534f;
+  font-weight: 600;
+}
+
+.grammar-grammar-err {
+  color: #dc3545;
+  background-color: #ffe6e6;
+  text-decoration: underline wavy #dc3545;
+  border-radius: 3px;
+  padding: 0 2px;
+}
