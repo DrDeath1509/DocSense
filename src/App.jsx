@@ -1,14 +1,14 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dashboard from './Screens/Dashboard.js';
-import WordCounter from './Screens/WordCounter.js';
-import ReferenceGenerator from './Screens/ReferenceGenerator.js';
-import Paraphraser from './Screens/Paraphraser.js';
-import Summarizer from './Screens/Summarizer.js';
-import GrammarChecker from './Screens/GrammerChecker.js';
-import PDFReader from './Screens/PDFReader.js';
-import PDFMaker from './Screens/PDFMaker.js';
+import Dashboard from './Screens/Dashboard.jsx';
+import WordCounter from './Screens/WordCounter.jsx';
+import ReferenceGenerator from './Screens/ReferenceGenerator.jsx';
+import Paraphraser from './Screens/Paraphraser.jsx';
+import Summarizer from './Screens/Summarizer.jsx';
+import GrammarChecker from './Screens/GrammerChecker.jsx';
+import PDFReader from './Screens/PDFReader.jsx';
+import PDFMaker from './Screens/PDFMaker.jsx';
 import 'pdfjs-dist/web/pdf_viewer.css';
 
 function App() {
